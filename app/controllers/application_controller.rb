@@ -7,5 +7,8 @@ class App < Sinatra::Base
   get '/' do
     erb :'app/views/index'
   end
+  
+  post '/teams' do
+    erb :'app/views/index'
 
 end
